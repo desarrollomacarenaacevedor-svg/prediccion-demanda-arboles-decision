@@ -8,11 +8,11 @@ Proyecto creado en lenguaje python, machine learning, para poder analizar datos 
 Este proyecto consiste en el desarrollo de un modelo de Machine Learning orientado a la predicción de la demanda, utilizando técnicas de análisis de datos y modelamiento predictivo.
 
 Se trabajó con un conjunto de variables relevantes del negocio, tales como:
--Precio
--Promociones
--Historial de compras
--Estacionalidad
--Canal de venta
+* Precio
+* Promociones
+* Historial de compras
+* Estacionalidad
+* Canal de venta
 
 ---
 ___________________________________________________________________________________________________________
@@ -24,8 +24,8 @@ Desarrollar un modelo predictivo que permita estimar la demanda de productos en 
 ____________________________________________________________________________________________________________
 
 ## Modelo utilizados:
-*Árbol de decisión
-*Random Forest
+* Árbol de decisión
+* Random Forest
 
 ---
 _____________________________________________________________________________________________________________
@@ -44,14 +44,14 @@ Es como un diagrama de flujo que divide los datos en pasos hasta llegar a una pr
 ### Estructura de un arbol de decisiones:
 El arbol se compone por tres partes:
 
-*Nodo raíz (inicio): Es la primera decisión importante.
-*Ramas (decisiones): Son los caminos según la respuesta.
-*Hojas (Resultado final): Aquí esta predicción.
+* Nodo raíz (inicio): Es la primera decisión importante.
+* Ramas (decisiones): Son los caminos según la respuesta.
+* Hojas (Resultado final): Aquí esta predicción.
 
 ### Para que sirve
-*Predecir valores (regresión).
-*Clasificar (sí/no, tipo clientes, etc).
-*Entender decisiones.
+* Predecir valores (regresión).
+* Clasificar (sí/no, tipo clientes, etc).
+* Entender decisiones.
 
 ---
 ____________________________________________________________________________________________________________
@@ -117,7 +117,7 @@ ________________________________________________________________________________
 
 ## AUTOR
 **MACARENA ACEVEDO ROJAS** 
-Analista de Datos en formación
-Interesada en Machine Learning y análisis de datos
+* Analista de Datos en formación
+* Interesada en Machine Learning y análisis de datos
 
 
