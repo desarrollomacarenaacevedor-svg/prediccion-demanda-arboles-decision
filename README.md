@@ -15,8 +15,8 @@ Desarrollar un modelo predictivo que permita estimar la demanda de productos en 
 ____________________________________________________________________________________________________________
 
 # Modelo usados:
--Árbol de decisión
--Random Forest
+*Árbol de decisión
+*Random Forest
 
 _____________________________________________________________________________________________________________
 
@@ -32,14 +32,14 @@ Es como un diagrama de flujo que divide los datos en pasos hasta llegar a una pr
 # Estructura de un arbol de decisiones:
 El arbol se compone por tres partes:
 
--Nodo raíz (inicio): Es la primera decisión importante.
--Ramas (decisiones): Son los caminos según la respuesta.
--Hojas (Resultado final): Aquí esta predicción.
+*Nodo raíz (inicio): Es la primera decisión importante.
+*Ramas (decisiones): Son los caminos según la respuesta.
+*Hojas (Resultado final): Aquí esta predicción.
 
 # Para que sirve:
--Predecir valores (regresión).
--Clasificar (sí/no, tipo clientes, etc).
--Entender decisiones.
+*Predecir valores (regresión).
+*Clasificar (sí/no, tipo clientes, etc).
+*Entender decisiones.
 
 ____________________________________________________________________________________________________________
 
@@ -49,41 +49,41 @@ Random Forest es un modelo de aprendizaje automático que construye múltiples �
 _____________________________________________________________________________________________________________
 
 # Tecnologías:
--Python 
--Pandas 
--Scikit-learn 
--Matplotlib (visualización de resultados)
+*Python 
+*Pandas 
+*Scikit-learn 
+*Matplotlib (visualización de resultados)
 
 ____________________________________________________________________________________________________________
 
 # Interpretacion del Arbol de decisiones:
--El modelo parte dividiendo los datos segun el precio del producto.
--Esta es la variable mas predominante para reducir la variabilidad en la demanda.
--Si el precio es bajo (≤ 57,917), se va por la rama izquierda.
--Si el precio es alto (> 57,917), se va por la rama derecha.
--La demanda promedio para todos los datos (sin ninguna división) hasta este punto es 88,698 unidades.
+*El modelo parte dividiendo los datos segun el precio del producto.
+*Esta es la variable mas predominante para reducir la variabilidad en la demanda.
+*Si el precio es bajo (≤ 57,917), se va por la rama izquierda.
+*Si el precio es alto (> 57,917), se va por la rama derecha.
+*La demanda promedio para todos los datos (sin ninguna división) hasta este punto es 88,698 unidades.
 
 __________________________________________________________________________________________________________
 
 # Influencia de las Variables:
 
-# Precio:
+*Precio:
 
 El precio presenta una relación inversa con la demanda. A medida que el precio aumenta, el árbol dirige las predicciones hacia valores menores de demanda, lo que confirma un comportamiento típico de sensibilidad al precio.
 
-# Promociones:
+*Promociones:
 
 Las promociones generan un impacto positivo en la demanda. El árbol muestra que, ante la presencia de promociones, las predicciones tienden a aumentar, evidenciando la efectividad de estrategias comerciales basadas en descuentos o incentivos.
 
-#Historial de compras:
+*Historial de compras:
 
 El historial de compras influye directamente en la demanda, donde clientes con mayor nivel de compras previas tienden a generar mayores niveles de consumo futuro.
 
-# Estacionalidad:
+*Estacionalidad:
 
 Se identifica un aumento en la demanda durante periodos de alta estacionalidad, lo que indica que el modelo logra capturar patrones temporales relevantes.
 
-# Canal de venta:
+*Canal de venta:
 
 El canal también afecta la predicción, mostrando diferencias en la demanda dependiendo si la venta se realiza en tienda física u online.
 
